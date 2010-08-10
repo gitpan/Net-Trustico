@@ -1,0 +1,7 @@
+Changes
+Makefile.PL
+MANIFEST
+README
+t/Net-Trustico.t
+lib/Net/Trustico.pm
+META.yml                                 Module meta-data (added by MakeMaker)
