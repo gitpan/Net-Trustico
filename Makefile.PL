@@ -5,9 +5,9 @@ WriteMakefile(
     NAME              => 'Net::Trustico',
     VERSION_FROM      => 'lib/Net/Trustico.pm', # finds $VERSION
     PREREQ_PM         => {
-        'Time::Piece' => undef,
-        'LWP::UserAgent' => undef,
-        Carp => undef
+        'Time::Piece' => 0,
+        'LWP::UserAgent' => 0,
+        Carp => o,
         },
     ($] >= 5.005 ?     ## Add these new keywords supported since 5.005
       (ABSTRACT_FROM  => 'lib/Net/Trustico.pm', # retrieve abstract from module
